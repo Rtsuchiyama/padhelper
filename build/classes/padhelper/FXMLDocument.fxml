@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="padhelper.FXMLDocumentController">
+   <children>
+      <Text layoutX="92.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monster" />
+      <TextField fx:id="field" layoutX="144.0" layoutY="14.0" />
+      <Button fx:id="submit" layoutX="305.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Submit" />
+      <GridPane fx:id="cardList" alignment="CENTER" hgap="10.0" layoutX="2.0" layoutY="80.0" prefHeight="49.0" prefWidth="441.0" vgap="10.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="45.0" />
+          <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="45.0" />
+          <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="45.0" />
+        </columnConstraints>
+      </GridPane>
+      <Text layoutX="189.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desired Cards" />
+   </children>
+</AnchorPane>
